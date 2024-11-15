@@ -1,0 +1,13 @@
+/* blog.css - Blog page specific styles */
+.blog-post h3 {
+    font-size: 1.25rem; /* Larger font size for headings */
+    color: var(--primary-foreground); /* Use primary color for headings */
+}
+.blog-post p {
+    line-height: 1.6; /* Increased line spacing for readability */
+    color: var(--foreground); /* Text color for better contrast */
+}
+.blog-post img {
+    border-radius: var(--radius); /* Rounded corners for images */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for images */
+}
